@@ -34,6 +34,7 @@ class MyApp extends StatelessWidget {
       title: 'PIN Auth',
       home: MenuScreen(),
       theme: CupertinoThemeData(
+        brightness: Brightness.light,
         primaryColor: CupertinoColors.black,
       ),
       debugShowCheckedModeBanner: false,
